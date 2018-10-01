@@ -25,7 +25,7 @@ public class Music {
 			HashMap<String,Integer> clockorder = new HashMap<String,Integer>();
 			clockorder.put(origin[0], 0);
 		
-			int firstIndex = Arrays.binarySearch(tones, origin[0]);
+			int firstIndex = Arrays.asList(tones).indexOf(origin[0]); //Arrays.binarysearch cannot always work on unsorted array. 
 			System.out.println("The firstIndex is: " + firstIndex);
 			for(int i=0;i<12;i++) {
 				if(i-firstIndex>=0) clockorder.put(tones[i],i-firstIndex);
