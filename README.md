@@ -12,4 +12,4 @@ Download the folder "Serial Music Maker Product", and run the SerialMusicMaker.j
 ## Demo
 ![12 Tonne Demo][12Tonegif]
 
-[12Tonegif]: https://github.com/AtonalStar/12-tone-serial-music/blob/master/12Tone.gif?s=200
+[12Tonegif]: https://github.com/AtonalStar/12-tone-serial-music/blob/master/12ToneMusic.gif?s=200
